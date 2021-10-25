@@ -1,0 +1,9 @@
+<div class="form-group">
+    <button class="l-btn" (click)="dec()">-</button>
+    <input [(ngModel)]="num"
+           class="form-control"
+           pattern="^[1-9]$|^[1][0]$">
+    <button class="r-btn" (click)="inc()">+</button>
+    <div [hidden]="(isValid())">неверное значение</div>
+</div>
+

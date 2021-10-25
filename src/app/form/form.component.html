@@ -1,0 +1,10 @@
+<form [formGroup]="form1">
+  <div class="form-group">
+    <app-num [(ngModel)]="val" formControlName="number" #number></app-num>
+  </div>
+
+  <button class="btn" [disabled]="form1.invalid"> Submit</button>
+</form>
+
+
+

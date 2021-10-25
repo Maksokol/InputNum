@@ -1,0 +1,42 @@
+.l-btn {
+  font-size: 20px;
+  border-radius: 7px 0 0 7px;
+  border-width: 1px;
+  border-right: 0;
+  border-color: blue;
+
+}
+
+.r-btn {
+  font-size: 20px;
+  border-radius: 0 7px 7px 0;
+  border-width: 1px;
+  border-left: 0;
+  border-color: blue;
+
+}
+
+.form-control {
+  font-size: 20px;
+  width: 40px;
+  border-color: blue;
+  border-width: 1px;
+}
+
+.form-group {
+  margin: 5% 5% 5% 15%;
+}
+
+.r-btn:focus {
+  outline: none;
+}
+
+.l-btn:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+
